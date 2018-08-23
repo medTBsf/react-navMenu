@@ -1,0 +1,25 @@
+a {
+  margin: 10px 10px;
+  text-decoration: none;
+}
+
+.nav-menu {
+  padding: 10px;
+  border-bottom: 2px solid green;
+  display: inline-block;
+  position: relative;
+}
+
+.sub-menu {
+  border-right: 2px solid green;
+  border-left: 2px solid green;
+  border-bottom: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 150px;
+  text-align: left;
+  position: absolute;
+  top: 38px;
+  left: 75px;
+}
